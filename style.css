@@ -1,0 +1,114 @@
+h1{
+    color: rgb(16, 187, 173);
+    font-size: 50px;
+}
+
+html{
+    background-color: rgb(170, 170, 170);
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+
+    margin-top: 35px;
+
+    text-align: center;
+
+    background-color: rgb(119, 115, 115);
+
+    position: relative;
+}
+
+.item img{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin-left: 0px;
+}
+
+a{
+    color: rgb(0,0,0);
+}
+
+p{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.menu{
+    border: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.textTitle{
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.aboutMe1 a{
+    font-size: 15px;
+    color: white;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.aboutMe2 a{
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.weirdIcon a{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    opacity: 1;
+    font-size: larger;
+    font: optional;
+}
+
+.headBody{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    opacity: 1;
+    font-size: larger;
+    font: optional;
+    color: rgb(0, 0, 0);
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
